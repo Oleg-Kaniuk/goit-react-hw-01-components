@@ -10,19 +10,12 @@ import { FriendList } from "./FriendList/FriendList";
 import transactions from "../datajson/transactions.json";
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 
+import styles from "./App.module.css"
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React components
+    <div className={styles.container}>
+      <h1>Social network profile</h1>
       <Profile
           username={user.username}
           tag={user.tag}

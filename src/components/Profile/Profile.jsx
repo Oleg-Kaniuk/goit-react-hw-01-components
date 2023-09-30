@@ -9,8 +9,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
                 className={styles.avatar}
             />
             <p className={styles.name}>{username}</p>
-            <p className="tag">{tag}</p>
-            <p className="location">{location}</p>
+            <p className={styles.tag}>{tag}</p>
+            <p className={styles.location}>{location}</p>
         </div>
 
         <ul className={styles.stats}>
