@@ -1,0 +1,11 @@
+/* FriendList container styles */
+.friendList {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 820px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
