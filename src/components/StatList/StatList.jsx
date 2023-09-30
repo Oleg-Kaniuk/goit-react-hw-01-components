@@ -6,8 +6,8 @@ export const StatList = ({ stats }) => {
         <ul className={styles.statList}>
             {stats.map( ({id, label, percentage}) => {
                 return (<li key={id} className={styles.element} style={{backgroundColor: `${getRandomHexColor()}`}}>
-                    <span className="label">{label}</span>
-                    <span className="percentage">{percentage}%</span>
+                    <span className={styles.label}>{label}</span>
+                    <span className={styles.percentage}>{percentage}%</span>
             </li>)
             })}
         </ul>
