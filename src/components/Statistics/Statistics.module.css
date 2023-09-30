@@ -1,0 +1,14 @@
+/* Statistics container styles */
+.statistics {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Title styles */
+.title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
