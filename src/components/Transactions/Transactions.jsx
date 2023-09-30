@@ -4,10 +4,10 @@ export const Transactions = ({ items }) => {
     return (
         <tbody>
             {items.map(({ id, type, amount, currency }) => {
-                return (<tr className={styles.line} key={id}>
-                    <td className={styles.cell}>{type}</td>
-                    <td className={styles.cell}>{amount}</td>
-                    <td className={styles.cell}>{currency}</td>
+                return (<tr className={styles.stroke} key={id}>
+                    <td className={styles.box}>{type}</td>
+                    <td className={styles.box}>{amount}</td>
+                    <td className={styles.box}>{currency}</td>
                 </tr>)
             })}
         </tbody>

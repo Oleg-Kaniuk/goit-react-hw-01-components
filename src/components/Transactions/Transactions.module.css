@@ -1,0 +1,25 @@
+.row {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.box {
+  padding: 12px;
+  text-align: left;
+}
+
+.stroke {
+  transition: background-color 0.3s ease;
+}
+
+.stroke:nth-child(even) {
+  background-color: skyblue;
+}
+
+.stroke:nth-child(odd) {
+  background-color: cornflowerblue;
+}
+
+.stroke:hover {
+  background-color: yellow;
+}
